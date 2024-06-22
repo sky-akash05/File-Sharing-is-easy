@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URI = 'http://localhost:8000';
+const API_URI = 'file-sharing-is-easy.vercel:8000';
 
 export const uploadFile = async (data) => {
     try {
